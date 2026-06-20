@@ -1,0 +1,24 @@
+{
+  "total_model_calls": 44,
+  "avg_model_calls_per_claim": 1.0,
+  "total_images_sent": 82,
+  "total_cost_sgd": 1.6681,
+  "avg_cost_sgd_per_claim": 0.037911,
+  "runtime_seconds": 379.28,
+  "total_claims": 44,
+  "avg_runtime_seconds_per_claim": 8.62,
+  "token_usage": {
+    "input_tokens": 197411,
+    "output_tokens": 9943,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0
+  },
+  "pricing_assumptions": {
+    "model": "claude-opus-4-6",
+    "input_usd_per_mtok": 5.0,
+    "output_usd_per_mtok": 25.0,
+    "cache_read_usd_per_mtok": 0.5,
+    "cache_write_usd_per_mtok": 6.25,
+    "usd_to_sgd": 1.35
+  }
+}

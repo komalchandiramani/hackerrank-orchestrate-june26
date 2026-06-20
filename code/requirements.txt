@@ -1,0 +1,6 @@
+pydantic==2.13.4
+anthropic==0.111.0
+python-dotenv==1.0.1
+tqdm==4.67.1
+pillow==11.1.0
+pillow-avif-plugin==1.5.2

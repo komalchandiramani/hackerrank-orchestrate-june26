@@ -1,0 +1,423 @@
+{
+  "aggregate": {
+    "num_claims": 20,
+    "equality": {
+      "evidence_standard_met": 0.85,
+      "valid_image": 0.9,
+      "issue_type": 0.55,
+      "object_part": 0.85,
+      "claim_status": 0.8,
+      "severity": 0.45
+    },
+    "iou": {
+      "risk_flags": 0.4375,
+      "supporting_image_ids": 0.85
+    },
+    "judge": {
+      "evidence_standard_met_reason": 74.35,
+      "claim_status_justification": 68.15
+    }
+  },
+  "per_claim": [
+    {
+      "user_id": "user_001",
+      "image_paths": "images/sample/case_001/img_1.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 1,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 0
+      },
+      "iou": {
+        "risk_flags": 1.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 92,
+        "claim_status_justification": 52
+      }
+    },
+    {
+      "user_id": "user_002",
+      "image_paths": "images/sample/case_002/img_1.jpg;images/sample/case_002/img_2.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 0,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 0
+      },
+      "iou": {
+        "risk_flags": 0.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 85,
+        "claim_status_justification": 60
+      }
+    },
+    {
+      "user_id": "user_004",
+      "image_paths": "images/sample/case_003/img_1.jpg;images/sample/case_003/img_2.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 0,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 0
+      },
+      "iou": {
+        "risk_flags": 0.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 95,
+        "claim_status_justification": 72
+      }
+    },
+    {
+      "user_id": "user_007",
+      "image_paths": "images/sample/case_004/img_1.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 0,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 1
+      },
+      "iou": {
+        "risk_flags": 1.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 85,
+        "claim_status_justification": 85
+      }
+    },
+    {
+      "user_id": "user_005",
+      "image_paths": "images/sample/case_005/img_1.jpg;images/sample/case_005/img_2.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 0,
+        "object_part": 1,
+        "claim_status": 0,
+        "severity": 0
+      },
+      "iou": {
+        "risk_flags": 0.3333,
+        "supporting_image_ids": 0.5
+      },
+      "judge": {
+        "evidence_standard_met_reason": 35,
+        "claim_status_justification": 0
+      }
+    },
+    {
+      "user_id": "user_006",
+      "image_paths": "images/sample/case_006/img_1.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 1,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 1
+      },
+      "iou": {
+        "risk_flags": 0.25,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 95,
+        "claim_status_justification": 85
+      }
+    },
+    {
+      "user_id": "user_003",
+      "image_paths": "images/sample/case_007/img_1.jpg;images/sample/case_007/img_2.jpg",
+      "equality": {
+        "evidence_standard_met": 0,
+        "valid_image": 1,
+        "issue_type": 0,
+        "object_part": 1,
+        "claim_status": 0,
+        "severity": 0
+      },
+      "iou": {
+        "risk_flags": 0.5,
+        "supporting_image_ids": 0.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 15,
+        "claim_status_justification": 30
+      }
+    },
+    {
+      "user_id": "user_008",
+      "image_paths": "images/sample/case_008/img_1.jpg",
+      "equality": {
+        "evidence_standard_met": 0,
+        "valid_image": 1,
+        "issue_type": 1,
+        "object_part": 0,
+        "claim_status": 1,
+        "severity": 1
+      },
+      "iou": {
+        "risk_flags": 0.5,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 72,
+        "claim_status_justification": 95
+      }
+    },
+    {
+      "user_id": "user_009",
+      "image_paths": "images/sample/case_009/img_1.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 1,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 0
+      },
+      "iou": {
+        "risk_flags": 1.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 92,
+        "claim_status_justification": 95
+      }
+    },
+    {
+      "user_id": "user_010",
+      "image_paths": "images/sample/case_010/img_1.jpg;images/sample/case_010/img_2.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 1,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 0
+      },
+      "iou": {
+        "risk_flags": 1.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 85,
+        "claim_status_justification": 85
+      }
+    },
+    {
+      "user_id": "user_011",
+      "image_paths": "images/sample/case_011/img_1.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 0,
+        "issue_type": 0,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 1
+      },
+      "iou": {
+        "risk_flags": 0.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 95,
+        "claim_status_justification": 62
+      }
+    },
+    {
+      "user_id": "user_012",
+      "image_paths": "images/sample/case_012/img_1.jpg;images/sample/case_012/img_2.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 1,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 1
+      },
+      "iou": {
+        "risk_flags": 0.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 92,
+        "claim_status_justification": 82
+      }
+    },
+    {
+      "user_id": "user_018",
+      "image_paths": "images/sample/case_013/img_1.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 1,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 0
+      },
+      "iou": {
+        "risk_flags": 1.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 85,
+        "claim_status_justification": 92
+      }
+    },
+    {
+      "user_id": "user_020",
+      "image_paths": "images/sample/case_014/img_1.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 0,
+        "object_part": 0,
+        "claim_status": 0,
+        "severity": 0
+      },
+      "iou": {
+        "risk_flags": 0.3333,
+        "supporting_image_ids": 0.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 45,
+        "claim_status_justification": 62
+      }
+    },
+    {
+      "user_id": "user_015",
+      "image_paths": "images/sample/case_015/img_1.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 1,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 1
+      },
+      "iou": {
+        "risk_flags": 1.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 95,
+        "claim_status_justification": 95
+      }
+    },
+    {
+      "user_id": "user_030",
+      "image_paths": "images/sample/case_016/img_1.jpg;images/sample/case_016/img_2.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 1,
+        "object_part": 0,
+        "claim_status": 1,
+        "severity": 1
+      },
+      "iou": {
+        "risk_flags": 0.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 62,
+        "claim_status_justification": 85
+      }
+    },
+    {
+      "user_id": "user_031",
+      "image_paths": "images/sample/case_017/img_1.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 1,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 1
+      },
+      "iou": {
+        "risk_flags": 0.0,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 92,
+        "claim_status_justification": 72
+      }
+    },
+    {
+      "user_id": "user_032",
+      "image_paths": "images/sample/case_018/img_1.jpg;images/sample/case_018/img_2.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 0,
+        "issue_type": 0,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 1
+      },
+      "iou": {
+        "risk_flags": 0.3333,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 85,
+        "claim_status_justification": 82
+      }
+    },
+    {
+      "user_id": "user_033",
+      "image_paths": "images/sample/case_019/img_1.jpg",
+      "equality": {
+        "evidence_standard_met": 0,
+        "valid_image": 1,
+        "issue_type": 1,
+        "object_part": 1,
+        "claim_status": 1,
+        "severity": 0
+      },
+      "iou": {
+        "risk_flags": 0.25,
+        "supporting_image_ids": 1.0
+      },
+      "judge": {
+        "evidence_standard_met_reason": 0,
+        "claim_status_justification": 72
+      }
+    },
+    {
+      "user_id": "user_034",
+      "image_paths": "images/sample/case_020/img_1.jpg;images/sample/case_020/img_2.jpg",
+      "equality": {
+        "evidence_standard_met": 1,
+        "valid_image": 1,
+        "issue_type": 0,
+        "object_part": 1,
+        "claim_status": 0,
+        "severity": 0
+      },
+      "iou": {
+        "risk_flags": 0.25,
+        "supporting_image_ids": 0.5
+      },
+      "judge": {
+        "evidence_standard_met_reason": 85,
+        "claim_status_justification": 0
+      }
+    }
+  ]
+}
